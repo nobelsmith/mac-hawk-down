@@ -54,3 +54,16 @@ zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 Add zsh-syntax-highlighting to your ~/.zshrc file plugins
+
+Postgres
+```bash
+brew install postgresql@16
+echo 'export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"' >> ~/.zshrc 
+```
+Restart your terminal so that zshrc runs then you will be able run the following examples:
+```bash
+psql postgres
+createuser -s nobel
+psql postgres >THEN> CREATE DATABSE nobel;
+psql --user nobel
+```
