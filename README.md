@@ -64,6 +64,5 @@ Restart your terminal so that zshrc runs then you will be able run the following
 ```bash
 psql postgres
 createuser -s nobel
-psql postgres >THEN> CREATE DATABSE nobel;
-psql --user nobel
+createdb -O nobel nobel
 ```
