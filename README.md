@@ -66,3 +66,17 @@ psql postgres
 createuser -s nobel
 createdb -O nobel nobel
 ```
+
+Neovim
+```bash
+brew install neovim
+git clone https://github.com/nobelsmith/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+brew install wget
+brew install ripgrep
+brew install fd
+```
+
+GO
+```bash
+brew install golang
+```
