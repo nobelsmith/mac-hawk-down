@@ -104,3 +104,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+export PATH=$PATH:/Users/nobelsmith/go/bin
+export PATH=$PATH:$GOPATH/bin
